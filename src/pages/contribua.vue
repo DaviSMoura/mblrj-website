@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import ContribuaHero from '../components/ContribuaHero.vue';
 import { useHead } from '@unhead/vue';
 
 useHead({
@@ -13,7 +14,5 @@ useHead({
 </script>
 
 <template>
-  <h1 className="text-3xl font-bold underline">
-    Página em construção
-  </h1>
+  <contribua-hero></contribua-hero>
 </template>
