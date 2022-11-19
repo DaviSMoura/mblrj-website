@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import ContribuaHero from '../components/ContribuaHero.vue';
+import PixSection from '../components/PixSection.vue';
 import { useHead } from '@unhead/vue';
 
 useHead({
@@ -15,4 +16,5 @@ useHead({
 
 <template>
   <contribua-hero></contribua-hero>
+  <pix-section></pix-section>
 </template>

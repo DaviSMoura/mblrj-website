@@ -1,3 +1,5 @@
+<script setup lang="ts"></script>
+
 <template>
 <div class="hero min-h-[500px] bg-base-200" style="background-image: url('/src/assets/rj-bg.jpg');">
   <div class="hero-overlay bg-opacity-80"></div>
