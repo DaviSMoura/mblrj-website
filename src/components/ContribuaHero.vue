@@ -2,7 +2,7 @@
 </script>
 
 <template>
-<div class="hero min-h-[500px] bg-base-200" style="background-image: url('./rj-bg.jpg');" id="hero-bg">
+<div class="hero min-h-[400px] bg-base-200" style="background-image: url('./rj-bg.jpg');" id="hero-bg">
   <div class="hero-overlay bg-opacity-80"></div>
   <div class="hero-content text-center text-neutral-content">
     <div class="max-w-lg">
