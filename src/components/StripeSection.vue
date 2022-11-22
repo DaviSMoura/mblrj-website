@@ -8,13 +8,17 @@
         Só contamos com o apoio financeiro de pessoas como você para continuar nessa luta.
       </b>
     </div>
-    <div class="flex flex-row gap-8 justify-center">
+    <div class="flex flex-col md:flex-row gap-8 justify-center">
       <div>
-        <div class="card w-96 bg-base-200 shadow-lg">
+        <div class="card bg-base-200 shadow-lg">
           <!-- <figure><img src="https://placeimg.com/400/225/arch" alt="Mensalista I" /></figure> -->
           <div class="card-body">
             <h2 class="card-title">Mensalista Nível I</h2>
-            <p>Ajude o MBL RJ a se manter mensalmente com um valor simbólico</p>
+            <p>
+              ✅ Descontos nos nossos produtos<br />
+              ✅ Acesso a grupo exclusivo de mensalistas<br />
+              ✅ Reuniões mensais com coordenadores<br />
+            </p>
             <div class="card-actions justify-center mt-4">
               <button class="btn btn-primary">Assinar por R$ 20,00</button>
             </div>
@@ -22,25 +26,33 @@
         </div>
       </div>
       <div>
-        <div class="card w-96 bg-base-200 shadow-lg">
+        <div class="card bg-base-200 shadow-lg">
           <!-- <figure><img src="https://placeimg.com/400/225/arch" alt="Mensalista" /></figure> -->
           <div class="card-body">
             <h2 class="card-title">Mensalista Nível II</h2>
-            <p>Ajude o MBL RJ a se manter mensalmente com um valor mais alto</p>
+            <p>
+              ✅ Descontos nos nossos produtos<br />
+              ✅ Acesso a grupo exclusivo de mensalistas<br />
+              ✅ Reuniões mensais com coordenadores<br />
+            </p>
             <div class="card-actions justify-center mt-4">
-              <button class="btn btn-primary">Assinar por R$ 40,00</button>
+              <button class="btn btn-primary">Assinar por R$ 50,00</button>
             </div>
           </div>
         </div>
       </div>
       <div>
-        <div class="card w-96 bg-base-200 shadow-lg">
+        <div class="card bg-base-200 shadow-lg">
           <!-- <figure><img src="https://placeimg.com/400/225/arch" alt="Mensalista" /></figure> -->
           <div class="card-body">
             <h2 class="card-title">Mensalista Nível III</h2>
-            <p>Ajude o MBL RJ a se manter mensalmente com um valor mais alto</p>
+            <p>
+              ✅ Descontos nos nossos produtos<br />
+              ✅ Acesso a grupo exclusivo de mensalistas<br />
+              ✅ Reuniões mensais com coordenadores<br />
+            </p>
             <div class="card-actions justify-center mt-4">
-              <button class="btn btn-primary">Assinar por R$ 60,00</button>
+              <button class="btn btn-primary">Assinar por R$ 100,00</button>
             </div>
           </div>
         </div>
