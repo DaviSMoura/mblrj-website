@@ -1,7 +1,7 @@
 <template>
 <footer class="footer p-10 bg-neutral text-neutral-content">
   <div>
-    <img width="20%" src="../assets/mbl-rj-white.png" />
+    <img width="20%" src="../assets/mbl-rj-white.png" alt="MBL RJ logo" />
     <p>MBL Rio de Janeiro<br/>Sempre que precisar, estaremos lá.</p>
   </div> 
   <div>
