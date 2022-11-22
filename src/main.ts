@@ -9,7 +9,7 @@ export const createApp = ViteSSG(
   // The root component
   App,
   // vue-router options
-  { routes },
+  { routes, base: import.meta.env.BASE_URL },
   (ctx) => {
     Object.values(import.meta.globEager('./modules/*.ts')).map((i) => { const x = i as any; x.install?.(ctx) })
   }
