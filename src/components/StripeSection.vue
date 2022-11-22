@@ -1,5 +1,5 @@
 <template>
-  <div class="xl:container mx-8 my-10">
+  <div class="xl:container mx-8 my-10" id="contribuir">
     <div class="mb-4">
       <h1 class="text-primary text-4xl font-bold text-center">
         Seja um mensalista recorrente
@@ -20,7 +20,7 @@
               ✅ Reuniões mensais com coordenadores<br />
             </p>
             <div class="card-actions justify-center mt-4">
-              <button class="btn btn-primary">Assinar por R$ 20,00</button>
+              <a href="https://buy.stripe.com/test_dR69Dw5z33D01Py147" class="btn btn-primary">Assinar por R$ 20,00</a>
             </div>
           </div>
         </div>
@@ -36,7 +36,7 @@
               ✅ Reuniões mensais com coordenadores<br />
             </p>
             <div class="card-actions justify-center mt-4">
-              <button class="btn btn-primary">Assinar por R$ 50,00</button>
+              <a href="https://buy.stripe.com/test_8wM02Wd1v2yW8dWbIK" class="btn btn-primary">Assinar por R$ 50,00</a>
             </div>
           </div>
         </div>
@@ -52,7 +52,7 @@
               ✅ Reuniões mensais com coordenadores<br />
             </p>
             <div class="card-actions justify-center mt-4">
-              <button class="btn btn-primary">Assinar por R$ 100,00</button>
+              <a href="https://buy.stripe.com/test_fZecPI9Pj2yW2TCaEF" class="btn btn-primary">Assinar por R$ 100,00</a>
             </div>
           </div>
         </div>
