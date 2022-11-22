@@ -7,5 +7,17 @@ export default defineConfig({
   plugins: [
     vue(),
     Pages()
-  ]
+  ],
+  ssgOptions: {
+    script: 'async',
+    formatting: 'minify',
+  },
+  optimizeDeps: {
+    include: [
+      'vue',
+      'vue-router',
+      '@vueuse/core',
+      '@vueuse/head',
+    ]
+  }
 })
