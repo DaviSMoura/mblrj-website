@@ -9,6 +9,7 @@
       <b>
         Você também pode fazer uma doação livre sem se tornar um contribuinte mensal.
       </b>
+      <p>Nossa chave PIX: <b>contribua@mblrj.com</b></p>
       <img
         src="../assets/pix.png"
         alt="QR code do pix"
@@ -16,7 +17,6 @@
         height="auto"
         class="object-scale-down w-auto max-w-fit h-[70%]"
       />
-      <p>Nossa chave PIX: <b>contribua@mblrj.com</b></p>
     </div>
   </div>
 </template>
