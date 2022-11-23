@@ -6,8 +6,8 @@
   <div class="hero-overlay bg-opacity-80"></div>
   <div class="hero-content text-center text-neutral-content">
     <div class="max-w-lg">
-      <h1 class="text-5xl font-bold">O RJ precisa de você!</h1>
-      <p class="py-6">Não recebemos dinheiro público e precisamos da sua ajuda para continuarmos atuando no nosso estado. Precisamos replicar o trabalho do MBL Nacional no nosso estado.</p>
+      <h1 class="text-5xl font-bold">Nosso estado pede socorro!</h1>
+      <p class="py-6">Ajude o MBL RJ nesta luta! Não recebemos dinheiro público e contamos com a sua contribuição para replicar o trabalho do nacional do MBL no nosso estado!</p>
       <a href="#contribuir" class="btn btn-primary">Contribuir Mensalmente</a>
     </div>
   </div>

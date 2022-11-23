@@ -5,7 +5,7 @@
         Seja um mensalista recorrente
       </h1>
       <b class="flex flex-col text-center">
-        Só contamos com o apoio financeiro de pessoas como você para continuar nessa luta.
+        Só recebemos apoio financeiro de pessoas como você para continuar atuando pela transformação.
       </b>
     </div>
     <div class="flex flex-col md:flex-row gap-8 justify-center">
