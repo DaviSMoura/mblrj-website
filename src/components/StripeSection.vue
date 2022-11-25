@@ -21,7 +21,7 @@ const plans = ref([
 </script>
 
 <template>
-  <div class="xl:container mx-8 my-10" id="contribuir">
+  <div class="xl:container mx-8 md:mx-auto my-10" id="contribuir">
     <div class="mb-4">
       <h1 class="text-primary text-4xl font-bold text-center">
         Seja um mensalista recorrente
