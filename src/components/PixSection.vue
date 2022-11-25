@@ -1,9 +1,9 @@
 <template>
-  <!-- <div class="xl:container mx-8">
-    <h1 class="text-primary text-4xl font-bold text-center my-8">
+  <div class="xl:container mx-auto">
+    <h1 class="text-primary text-4xl font-bold text-center">
       Doação livre
     </h1>
-  </div> -->
+  </div>
   <div class="flex justify-center py-8">
     <div class="flex flex-col place-items-center text-center">
       <b>
