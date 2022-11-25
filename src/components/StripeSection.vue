@@ -42,7 +42,7 @@ const plans = ref([
               ✅ Reuniões mensais com coordenadores<br />
             </p>
             <div class="card-actions justify-center mt-4">
-              <a :href="plan.link" class="btn btn-primary">Assinar por {{ plan.price }}</a>
+              <a :href="plan.link" target="_blank" class="btn btn-primary">Assinar por {{ plan.price }}</a>
             </div>
           </div>
         </div>
