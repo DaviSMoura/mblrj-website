@@ -33,7 +33,6 @@ const plans = ref([
     <div class="flex flex-col md:flex-row gap-8 justify-center">
       <div v-for="plan of plans" :key="plan.name">
         <div class="card bg-base-200 shadow-lg">
-          <!-- <figure><img src="https://placeimg.com/400/225/arch" alt="Mensalista I" /></figure> -->
           <div class="card-body">
             <h2 class="card-title">{{ plan.name }}</h2>
             <p>
