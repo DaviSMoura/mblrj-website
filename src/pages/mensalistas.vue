@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 import axios from 'axios'
+import Tabs from '../components/Tabs.vue'
+import { format } from 'date-fns'
 
 interface Mensalista {
   id: string,
@@ -8,14 +10,25 @@ interface Mensalista {
   name: string,
   phone: string
 }
+interface Historico {
+  id: string,
+  failure_message: string,
+  created: number,
+  amount: number,
+  billing_details: {
+    name: string
+  },
+  captured: true
+}
 interface Data {
   mensalistas: Mensalista[],
   financeiro: {
     amount: number,
-  }
+  },
+  historico: Historico[]
 }
 
-const data = ref<Data>({ mensalistas: [], financeiro: { amount: 0 } })
+const data = ref<Data>({ mensalistas: [], financeiro: { amount: 0 }, historico: [] })
 const loading = ref(true)
 
 const mensalistasUrl = `https://workflow.davimoura.com.br/webhook/mblrj/mensalistas`
@@ -45,40 +58,72 @@ loadData()
     </div>
   </div>
   <div class="container mx-auto pb-20" v-else>
-    <div class="flex justify-center items-center my-2">
-      <div class="stats bg-primary text-primary-content">
-        <div class="stat">
-          <div class="stat-title">Saldo Pendente</div>
-          <div class="stat-value">R$ {{ data.financeiro.amount / 100 }}</div>
+    <tabs :tabs="['Nomes dos mensalistas', 'Histórico de Pagamentos']">
+      <template #0>
+        <div class="overflow-x-auto w-full py-2">
+          <table class="table w-full">
+            <thead>
+              <tr>
+                <th>Nome</th>
+                <th>Contato</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="u of data.mensalistas" :key="u.id">
+                <td>
+                  <div class="flex items-center space-x-3">
+                    <div>
+                      <div class="font-bold">{{ u.name }}</div>
+                      <div class="text-sm opacity-50">{{ u.email }}</div>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  {{ u.phone }}
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-      </div>
-    </div>
-    <div class="overflow-x-auto w-full">
-      <table class="table w-full">
-        <!-- head -->
-        <thead>
-          <tr>
-            <th>Nome</th>
-            <th>Contato</th>
-          </tr>
-        </thead>
-        <tbody>
-          <!-- row 1 -->
-          <tr v-for="u of data.mensalistas" :key="u.id">
-            <td>
-              <div class="flex items-center space-x-3">
-                <div>
-                  <div class="font-bold">{{ u.name }}</div>
-                  <div class="text-sm opacity-50">{{ u.email }}</div>
-                </div>
-              </div>
-            </td>
-            <td>
-              {{ u.phone }}
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+      </template>
+      <template #1>
+        <div class="flex justify-center items-center my-2">
+          <div class="stats bg-primary text-primary-content">
+            <div class="stat">
+              <div class="stat-title">Saldo Pendente</div>
+              <div class="stat-value">R$ {{ (data.financeiro.amount / 100).toFixed(2) }}</div>
+            </div>
+          </div>
+        </div>
+        <div class="overflow-x-auto w-full py-2">
+          <table class="table w-full">
+            <thead>
+              <tr>
+                <th>Nome</th>
+                <th>Data/hora</th>
+                <th>Valor</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="u of data.historico" :key="u.id">
+                <td>
+                  {{ u.billing_details.name }}
+                </td>
+                <td>
+                  {{ format(new Date(u.created * 1000), 'dd/MM/yyyy - hh:mm') }}
+                </td>
+                <td>
+                  R$ {{ (u.amount / 100).toFixed(2) }}
+                </td>
+                <td>
+                  {{ u.captured ? 'Pago' : u.failure_message }}
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </template>
+    </tabs>
   </div>
 </template>
