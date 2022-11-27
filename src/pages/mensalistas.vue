@@ -117,7 +117,7 @@ loadData()
                   R$ {{ (u.amount / 100).toFixed(2) }}
                 </td>
                 <td>
-                  {{ u.captured ? 'Pago' : u.failure_message }}
+                  {{ u.captured ? 'Pago' : 'ERRO! ' + u.failure_message }}
                 </td>
               </tr>
             </tbody>
