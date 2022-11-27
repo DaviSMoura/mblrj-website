@@ -18,7 +18,7 @@ interface Data {
 const data = ref<Data>({ mensalistas: [], financeiro: { amount: 0 } })
 const loading = ref(true)
 
-const mensalistasUrl = `https://workflow.davimoura.com.br/webhook-test/mblrj/mensalistas`
+const mensalistasUrl = `https://workflow.davimoura.com.br/webhook/mblrj/mensalistas`
 
 async function loadData() {
   const res = await axios.get(mensalistasUrl)
