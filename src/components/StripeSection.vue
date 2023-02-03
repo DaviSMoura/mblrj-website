@@ -9,11 +9,16 @@ const plans = ref([
   },
   {
     name: 'Mensalista II',
+    link: 'https://buy.stripe.com/14k0349Audh8cko7sv',
+    price: 'R$ 30,00',
+  },
+  {
+    name: 'Mensalista III',
     link: 'https://buy.stripe.com/00gg22h2Wgtkacg145',
     price: 'R$ 50,00',
   },
   {
-    name: 'Mensalista III',
+    name: 'Mensalista IV',
     link: 'https://buy.stripe.com/fZedTUaEy6SK98c28a',
     price: 'R$ 100,00',
   },
@@ -38,7 +43,7 @@ const plans = ref([
             <p>
               ✅ Descontos nos nossos produtos<br />
               ✅ Acesso a grupo exclusivo de mensalistas<br />
-              ✅ Reuniões mensais com coordenadores<br />
+              ✅ Relatórios frequentes das nossas ações<br />
             </p>
             <div class="card-actions justify-center mt-4">
               <a :href="plan.link" target="_blank" class="btn btn-primary">Assinar por {{ plan.price }}</a>
