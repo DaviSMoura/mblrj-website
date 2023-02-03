@@ -9,3 +9,8 @@
   </div>
 </div>
 </template>
+
+<route lang="yaml">
+redirect:
+  name: contribua
+</route>
