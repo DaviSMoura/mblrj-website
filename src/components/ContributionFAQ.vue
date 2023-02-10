@@ -32,6 +32,10 @@ const questions = ref([
     a: "Sim! Você pode entrar para nossos grupos de apoio. Temos reuniões mensais com os apoiadores e quem quiser colaborar com o seu conhecimento em áreas como redes sociais, imprensa, produção audiovisual, entre outros, será muito bem-vindo. Acesse participe.mbl.org.br e faça parte!",
   },
   {
+    q: "Como entrar para o grupo dos contribuidores?",
+    a: "Após a assinatura, nós iremos entrar em contato com você através do seu número usado no ato da assinatura para te adicionar no grupo em até 7 dias. No futuro, teremos uma página para assinantes em que você mesmo poderá conseguir o link do grupo!",
+  },
+  {
     q: "Como posso ter ainda mais proximidade com o MBL?",
     a: "Nós temos a Academia MBL, um curso completo para quem quer aprender a participar de forma mais ativa do movimento. Todos os anos são abertas matrículas para novas turmas. Nossos coordenadores e principais líderes são professores e alunos do segundo ano da Academia. Acesse academia.mbl.org.br e saiba mais!",
   },
@@ -41,7 +45,7 @@ const questions = ref([
   },
   {
     q: "Como faço para cancelar minha assinatura?",
-    a: "Basta efetuar o cancelamento seguindo as instruções da Stripe. A assinatura pode ser cancelada a qualquer momento. Se precisar de ajuda, estamos a disposição nos grupos de mensalistas e redes sociais.",
+    a: "A assinatura pode ser cancelada a qualquer momento. Basta contactar-nos através do grupo de mensalistas, no privado ou nas redes sociais para que possamos realizar o cancelamento. No futuro, teremos uma página específica para que você mesmo cancele sua assinatura também. Se precisar de ajuda, estamos a disposição nos grupos de mensalistas e redes sociais.",
   },
   {
     q: "Tenho mais dúvidas!",
