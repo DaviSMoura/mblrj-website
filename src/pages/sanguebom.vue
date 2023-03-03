@@ -3,6 +3,17 @@ import IconHearth from '~icons/icon-park-outline/oval-love'
 import IconCheck from '~icons/icon-park-outline/check'
 import IconWhatsapp from '~icons/mdi/whatsapp'
 import IconCity from '~icons/icon-park-outline/city'
+import { useHead } from '@vueuse/head';
+
+useHead({
+  title: 'Sangue BOM - MBL RJ',
+  meta: [
+    {
+      name: 'description',
+      content: 'Ajude a manter os bancos de sangue do estado cheios!',
+    },
+  ],
+});
 
 const exigencias = [
   {
