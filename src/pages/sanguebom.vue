@@ -52,7 +52,7 @@ const datePerCity = {
           <h1 class="text-5xl font-bold">Sangue Bom</h1><icon-hearth class="pl-4" width="50px" height="50px"></icon-hearth>
         </div>
         <p class="py-6">Participe da nossa ação social de doação de sangue e nos ajude a suprir os estoques dos bancos de sangue do nosso estado que estão baixos.</p>
-        <button href="#sabermais" class="btn btn-primary">Saber mais</button>
+        <a href="#sabermais" class="btn btn-primary">Saber mais</a>
       </div>
     </div>
   </div>
