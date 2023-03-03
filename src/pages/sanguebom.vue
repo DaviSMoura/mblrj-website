@@ -12,6 +12,10 @@ useHead({
       name: 'description',
       content: 'Ajude a manter os bancos de sangue do estado cheios!',
     },
+    {
+      name: 'og:description',
+      content: 'Ajude a manter os bancos de sangue do estado cheios!',
+    },
   ],
 });
 
