@@ -53,9 +53,10 @@ const exigencias = [
 ]
 
 const datePerCity = {
-  'Niterói': '18/03/23',
-  'Nova Friburgo': '19/03/23',
-  'Rio de Janeiro': '18/03/23',
+  'Nova Friburgo': '17/03/23 - 09h',
+  'Petrópolis': '18/03/23 - 10h',
+  'Niterói': '18/03/23 - 10h',
+  'Rio de Janeiro': '19/03/23 - 10h',
 }
 </script>
 
@@ -75,7 +76,7 @@ const datePerCity = {
     <div class="grid grid-cols-1 md:grid-cols-1 gap-4">
       <div class="col-span-1">
         <h2 class="text-3xl font-bold">Sobre a ação</h2>
-        <p class="py-6">Nossos bancos de sangue no estado do Rio de Janeiro estão baixos e nós acreditamos que bla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla bla</p>
+        <p class="py-6">Nossos bancos de sangue no estado do Rio de Janeiro estão baixos e nós estamos organizando um ato coordenado de doação de sangue. Seja um doador de sangue e ajude a salvar vidas no Rio de Janeiro. Sua doação pode fazer a diferença para alguém que precisa de ajuda.</p>
       </div>
     </div>
   </div>
