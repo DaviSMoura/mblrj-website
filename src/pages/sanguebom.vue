@@ -58,6 +58,13 @@ const datePerCity = {
   'Niterói': '18/03/23 - 10h',
   'Rio de Janeiro': '19/03/23 - 10h',
 }
+
+const links = {
+  'Nova Friburgo': 'https://goo.gl/maps/2rDtwMmjcLHmGCbZ7',
+  'Petrópolis': '',
+  'Niterói': 'https://goo.gl/maps/CnuK9ouj8tobtY1AA',
+  'Rio de Janeiro': 'https://goo.gl/maps/f2fU2bbRGdfUZxKB8',
+}
 </script>
 
 <template>
@@ -76,7 +83,18 @@ const datePerCity = {
     <div class="grid grid-cols-1 md:grid-cols-1 gap-4">
       <div class="col-span-1">
         <h2 class="text-3xl font-bold">Sobre a ação</h2>
-        <p class="py-6">Nossos bancos de sangue no estado do Rio de Janeiro estão baixos e nós estamos organizando um ato coordenado de doação de sangue. Seja um doador de sangue e ajude a salvar vidas no Rio de Janeiro. Sua doação pode fazer a diferença para alguém que precisa de ajuda.</p>
+        <p class="py-6">Caro amigo(a) carioca,
+          <br />
+          <br />Nós do MBL RJ sabemos da importância da comunidade fluminense na solução de problemas locais. Por isso, um dos nossos focos de atuação em nosso estado serão as causas sociais.
+          <br />
+          <br />Nesse sentido, estou aqui para encorajá-lo(a) a participar da nossa campanha de doação de sangue no estado do Rio de Janeiro: Sangue Bom. Sua doação pode salvar vidas ate quatro vidas de nossos irmãos fluminenses.
+          <br />
+          <br />Doar sangue é um ato nobre e altruísta. Para ir além dessa ação, para cada doador que for na campanha e postar um stories da doação nos marcando no Instagram, iremos doar 1kg de alimento não perecível para a Casa dos Pobres São Vincente de Paula, em Nova Friburgo.
+          <br />
+          <br />A doação de sangue é um processo seguro e simples. Não há risco de contrair doenças e todo o processo é realizado por profissionais de saúde altamente capacitados. Além disso, a doação não afeta sua saúde e seu corpo pode produzir sangue novo em pouco tempo.
+          <br />
+          <br />Obrigado por sua ajuda e apoio à campanha de doação de sangue. Juntos podemos fazer a diferença na vida de muitas pessoas, inclusive a sua.
+        </p>
       </div>
     </div>
   </div>
@@ -106,6 +124,7 @@ const datePerCity = {
             <div class="flex md:justify-center md:items-center flex-col">
               <div class="text-2xl font-bold">{{ city }}</div>
               <div class="text-base py-2">{{ date }}</div>
+              <a class="text-primary" :href="links[city]" v-if="links[city]">Clique para ver o local</a>
             </div>
           </div>
         </div>
