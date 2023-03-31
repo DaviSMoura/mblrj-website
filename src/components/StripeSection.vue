@@ -13,7 +13,7 @@ const plans = ref([
       '❌ Desconto em ingressos de nossos eventos.',
       '❌ Acesso antecipado à nossa revista digital Papo Reto',
       '❌ Reuniões periódicas com membros do MBL Nacional',
-      '❌ Ingresso gratuito para o I Crongresso Estadual MBL RJ*'
+      '❌ Ingresso gratuito para o I Congresso Estadual MBL RJ*'
     ]
   },
   {
@@ -27,7 +27,7 @@ const plans = ref([
       '✅ 5% de desconto em ingressos de nossos eventos.',
       '❌ Acesso antecipado à nossa revista digital Papo Reto',
       '❌ Reuniões periódicas com membros do MBL Nacional',
-      '❌ Ingresso gratuito para o I Crongresso Estadual MBL RJ*'
+      '❌ Ingresso gratuito para o I Congresso Estadual MBL RJ*'
     ]
   },
   {
@@ -41,7 +41,7 @@ const plans = ref([
       '✅ 10% de desconto em ingressos de nossos eventos.',
       '✅ Acesso antecipado à nossa revista digital Papo Reto',
       '✅ Reuniões periódicas com membros do MBL Nacional',
-      '❌ Ingresso gratuito para o I Crongresso Estadual MBL RJ*'
+      '❌ Ingresso gratuito para o I Congresso Estadual MBL RJ*'
     ]
   },
   {
@@ -55,7 +55,7 @@ const plans = ref([
       '✅ 15% de desconto em ingressos de nossos eventos.',
       '✅ Acesso antecipado à nossa revista digital Papo Reto',
       '✅ Reuniões periódicas com membros do MBL Nacional',
-      '✅ Ingresso gratuito para o I Crongresso Estadual MBL RJ*'
+      '✅ Ingresso gratuito para o I Congresso Estadual MBL RJ*'
     ]
   },
 ])
