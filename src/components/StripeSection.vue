@@ -24,7 +24,7 @@ const plans = ref([
       '✅ Acesso ao grupo exclusivo de mensalistas.',
       '✅ Relatórios frequentes de nossas ações.',
       '✅ 5% de desconto em nossos produtos.',
-      '✅ 5% de desconto em ingressos de nossos eventos.',
+      '✅ Desconto em ingressos de nossos eventos.',
       '❌ Acesso antecipado à nossa revista digital Papo Reto',
       '❌ Reuniões periódicas com membros do MBL Nacional',
       '❌ Ingresso gratuito para o I Congresso Estadual MBL RJ*'
@@ -38,7 +38,7 @@ const plans = ref([
       '✅ Acesso ao grupo exclusivo de mensalistas.',
       '✅ Relatórios frequentes de nossas ações.',
       '✅ 10% de desconto em nossos produtos.',
-      '✅ 10% de desconto em ingressos de nossos eventos.',
+      '✅ Desconto em ingressos de nossos eventos.',
       '✅ Acesso antecipado à nossa revista digital Papo Reto',
       '✅ Reuniões periódicas com membros do MBL Nacional',
       '❌ Ingresso gratuito para o I Congresso Estadual MBL RJ*'
@@ -52,7 +52,7 @@ const plans = ref([
       '✅ Acesso ao grupo exclusivo de mensalistas.',
       '✅ Relatórios frequentes de nossas ações.',
       '✅ 20% de desconto em nossos produtos.',
-      '✅ 15% de desconto em ingressos de nossos eventos.',
+      '✅ Desconto em ingressos de nossos eventos.',
       '✅ Acesso antecipado à nossa revista digital Papo Reto',
       '✅ Reuniões periódicas com membros do MBL Nacional',
       '✅ Ingresso gratuito para o I Congresso Estadual MBL RJ*'
