@@ -52,7 +52,6 @@ const plans = ref([
       '✅ Desconto em ingressos de nossos eventos.',
       '✅ Acesso antecipado à nossa revista digital Papo Reto',
       '✅ Reuniões periódicas com membros do MBL Nacional',
-      '✅ Ingresso gratuito para o I Congresso Estadual MBL RJ*'
     ]
   },
 ])
