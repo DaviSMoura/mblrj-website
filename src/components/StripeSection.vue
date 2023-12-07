@@ -4,7 +4,7 @@ import { ref } from 'vue';
 const plans = ref([
   {
     name: 'Mensalista I',
-    link: 'https://buy.stripe.com/8wMeXYaEydh8fwAdQQ',
+    link: 'https://buy.stripe.com/5kAaGWa4UgEi1RScMM',
     price: 'R$ 20,00',
     benefits: [
       '✅ Acesso ao grupo exclusivo de mensalistas.',
@@ -13,12 +13,11 @@ const plans = ref([
       '❌ Desconto em ingressos de nossos eventos.',
       '❌ Acesso antecipado à nossa revista digital Papo Reto',
       '❌ Reuniões periódicas com membros do MBL Nacional',
-      '❌ Ingresso gratuito para o I Congresso Estadual MBL RJ*'
     ]
   },
   {
     name: 'Mensalista II',
-    link: 'https://buy.stripe.com/14k0349Audh8cko7sv',
+    link: 'https://buy.stripe.com/9AQ7uKgti0Fk8gg7st',
     price: 'R$ 30,00',
     benefits: [
       '✅ Acesso ao grupo exclusivo de mensalistas.',
@@ -27,12 +26,11 @@ const plans = ref([
       '✅ Desconto em ingressos de nossos eventos.',
       '❌ Acesso antecipado à nossa revista digital Papo Reto',
       '❌ Reuniões periódicas com membros do MBL Nacional',
-      '❌ Ingresso gratuito para o I Congresso Estadual MBL RJ*'
     ]
   },
   {
     name: 'Mensalista III',
-    link: 'https://buy.stripe.com/00gg22h2Wgtkacg145',
+    link: 'https://buy.stripe.com/28odT85OE2Ns6885km',
     price: 'R$ 50,00',
     benefits: [
       '✅ Acesso ao grupo exclusivo de mensalistas.',
@@ -41,12 +39,11 @@ const plans = ref([
       '✅ Desconto em ingressos de nossos eventos.',
       '✅ Acesso antecipado à nossa revista digital Papo Reto',
       '✅ Reuniões periódicas com membros do MBL Nacional',
-      '❌ Ingresso gratuito para o I Congresso Estadual MBL RJ*'
     ]
   },
   {
     name: 'Mensalista IV',
-    link: 'https://buy.stripe.com/fZedTUaEy6SK98c28a',
+    link: 'https://buy.stripe.com/cN2cP4b8Y73IdAA8wz',
     price: 'R$ 100,00',
     benefits: [
       '✅ Acesso ao grupo exclusivo de mensalistas.',
@@ -90,6 +87,6 @@ const plans = ref([
         </div>
       </div>
     </div>
-    <p class="text-center pt-5">* Válido somente até junho/2023 e para aqueles que contribuírem com pelo menos três mensalidades da modalidade IV.</p>
+    <p class="text-center pt-5">Caso você já seja um mensalista e deseja alterar seu cartão cadastrado, ou cancelar a sua assinatura, <a class="text-primary" href="https://billing.stripe.com/p/login/6oE4i1bVB8Ym6OIaEE" target="_blank">clique aqui</a>.</p>
   </div>
 </template>
