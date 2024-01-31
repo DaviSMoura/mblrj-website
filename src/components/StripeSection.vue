@@ -8,11 +8,9 @@ const plans = ref([
     price: 'R$ 20,00',
     benefits: [
       '✅ Acesso ao grupo exclusivo de mensalistas.',
-      '✅ Relatórios frequentes de nossas ações.',
-      '✅ 2% de desconto em nossos produtos.',
-      '❌ Desconto em ingressos de nossos eventos.',
-      '❌ Acesso antecipado à nossa revista digital Papo Reto',
-      '❌ Reuniões periódicas com membros do MBL Nacional',
+      '✅ Relatórios de nossas ações.',
+      '✅ Desconto em produtos do MBL RJ.',
+      '✅ Desconto em ingressos de eventos do MBL RJ.',
     ]
   },
   {
@@ -21,11 +19,9 @@ const plans = ref([
     price: 'R$ 30,00',
     benefits: [
       '✅ Acesso ao grupo exclusivo de mensalistas.',
-      '✅ Relatórios frequentes de nossas ações.',
-      '✅ 5% de desconto em nossos produtos.',
-      '✅ Desconto em ingressos de nossos eventos.',
-      '❌ Acesso antecipado à nossa revista digital Papo Reto',
-      '❌ Reuniões periódicas com membros do MBL Nacional',
+      '✅ Relatórios de nossas ações.',
+      '✅ Desconto em produtos do MBL RJ.',
+      '✅ Desconto em ingressos de eventos do MBL RJ.',
     ]
   },
   {
@@ -34,11 +30,9 @@ const plans = ref([
     price: 'R$ 50,00',
     benefits: [
       '✅ Acesso ao grupo exclusivo de mensalistas.',
-      '✅ Relatórios frequentes de nossas ações.',
-      '✅ 10% de desconto em nossos produtos.',
-      '✅ Desconto em ingressos de nossos eventos.',
-      '✅ Acesso antecipado à nossa revista digital Papo Reto',
-      '✅ Reuniões periódicas com membros do MBL Nacional',
+      '✅ Relatórios de nossas ações.',
+      '✅ Desconto em produtos do MBL RJ.',
+      '✅ Desconto em ingressos de eventos do MBL RJ.',
     ]
   },
   {
@@ -47,11 +41,9 @@ const plans = ref([
     price: 'R$ 100,00',
     benefits: [
       '✅ Acesso ao grupo exclusivo de mensalistas.',
-      '✅ Relatórios frequentes de nossas ações.',
-      '✅ 20% de desconto em nossos produtos.',
-      '✅ Desconto em ingressos de nossos eventos.',
-      '✅ Acesso antecipado à nossa revista digital Papo Reto',
-      '✅ Reuniões periódicas com membros do MBL Nacional',
+      '✅ Relatórios de nossas ações.',
+      '✅ Desconto em produtos do MBL RJ.',
+      '✅ Desconto em ingressos de eventos do MBL RJ.',
     ]
   },
 ])
