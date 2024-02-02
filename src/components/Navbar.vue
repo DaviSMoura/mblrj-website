@@ -10,7 +10,7 @@ const navigationLinks = ref([
 </script>
 
 <template>
-<div class="navbar bg-base-100 sticky top-0 z-50 bg-primary text-primary-content">
+<div class="navbar bg-accent sticky top-0 z-50 bg-primary text-primary-content">
   <div class="navbar-start">
     <!-- <div class="dropdown">
       <label tabindex="0" class="btn btn-ghost btn-circle">
@@ -22,13 +22,11 @@ const navigationLinks = ref([
     </div> -->
   </div>
   <div class="navbar-center">
-    <router-link class="btn btn-ghost normal-case text-xl" to="/">
+    <router-link class="btn btn-ghost normal-case btn-lg" to="/">
       <img
-          src="../assets/mbl-rj-white.png"
+          src="../assets/mbl-rj-logo.png"
           alt="MBL RJ"
-          width="auto"
-          height="auto"
-          class="object-scale-down w-auto h-auto max-w-fit max-h-12"
+          class="w-auto h-auto max-w-[100%] max-h-[100%] py-auto my-auto"
         />
     </router-link>
   </div>

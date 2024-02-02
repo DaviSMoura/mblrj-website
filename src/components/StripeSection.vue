@@ -3,7 +3,18 @@ import { ref } from 'vue';
 
 const plans = ref([
   {
-    name: 'Mensalista I',
+    name: 'Mensalista 10',
+    link: 'https://buy.stripe.com/28o6qGcd273IeEEbIM',
+    price: 'R$ 10,00',
+    benefits: [
+      '✅ Acesso ao grupo exclusivo de mensalistas.',
+      '✅ Relatórios de nossas ações.',
+      '✅ Desconto em produtos do MBL RJ.',
+      '✅ Desconto em ingressos de eventos do MBL RJ.',
+    ]
+  },
+  {
+    name: 'Mensalista 20',
     link: 'https://buy.stripe.com/5kAaGWa4UgEi1RScMM',
     price: 'R$ 20,00',
     benefits: [
@@ -14,7 +25,7 @@ const plans = ref([
     ]
   },
   {
-    name: 'Mensalista II',
+    name: 'Mensalista 30',
     link: 'https://buy.stripe.com/9AQ7uKgti0Fk8gg7st',
     price: 'R$ 30,00',
     benefits: [
@@ -25,7 +36,18 @@ const plans = ref([
     ]
   },
   {
-    name: 'Mensalista III',
+    name: 'Mensalista 40',
+    link: 'https://buy.stripe.com/aEU5mC7WMfAedAA3ch',
+    price: 'R$ 40,00',
+    benefits: [
+      '✅ Acesso ao grupo exclusivo de mensalistas.',
+      '✅ Relatórios de nossas ações.',
+      '✅ Desconto em produtos do MBL RJ.',
+      '✅ Desconto em ingressos de eventos do MBL RJ.',
+    ]
+  },
+  {
+    name: 'Mensalista 50',
     link: 'https://buy.stripe.com/28odT85OE2Ns6885km',
     price: 'R$ 50,00',
     benefits: [
@@ -36,7 +58,7 @@ const plans = ref([
     ]
   },
   {
-    name: 'Mensalista IV',
+    name: 'Mensalista 100',
     link: 'https://buy.stripe.com/cN2cP4b8Y73IdAA8wz',
     price: 'R$ 100,00',
     benefits: [
